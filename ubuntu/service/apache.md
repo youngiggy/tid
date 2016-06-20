@@ -8,7 +8,9 @@ sudo a2ensite test.com.conf
 ```
 
 재시작
-```sudo service apache2 restart```
+```
+sudo service apache2 restart
+```
 
 설정 디렉토리 구조
 ```/etc/apache2```
