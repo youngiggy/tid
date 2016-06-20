@@ -1,6 +1,12 @@
 #[Ubuntu] 우분투 Apache(아파치) 이해
 [source](http://webdir.tistory.com/196)
 
+새로운 vhosts 적용
+`
+sudo a2ensite example.com.conf
+sudo a2ensite test.com.conf
+`
+
 재시작
 `sudo service apache2 restart`
 
